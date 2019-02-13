@@ -16,7 +16,7 @@ e la salvo in una directory `lib` all'interno del mio progetto.
 
 Ora per far si che la libreria sia tra quelle utilizzate sia per compilare che in fase di esecuzione devo settare il `CLASSPATH`.
 
-### CONFIGUARARE IL CLASSPATH
+### CONFIGURARE IL CLASSPATH
 
 Se eseguo la compilazione da prompt dei comandi:
 
@@ -102,6 +102,24 @@ CSVRecord [comment=null, mapping=null, recordNumber=1, values=[test/ORDINI_IN_ES
 test/ORDINI_IN_ESSERE.xlsx
 ```
 
+### CONFIGURARE IL CLASSPATH IN ECLIPSE
+
+Eclipse facilita molto il setting del **CLASSPATH**.
+E' importante comunque capire tramite gli esempi di prima 
+cosa avviene.
+
+#### AGGIUNGO UNA LIBRERIA AL CLASSPATH
+Eclipse la chiama il *buildpath*.
+
+![EsempioSettaggioBuildPathEclipse](./EsempioSettaggioBuildPathEclipse.PNG)
+
+![EsempioSettaggioBuildPathEclipse_eseguito](./EsempioSettaggioBuildPathEclipse_eseguito.PNG)
+
+Per vedere in *buildpath* del progetto:
+
+![ViewBuildPathEclipse.PNG](ViewBuildPathEclipse.PNG)
+
+![ViewBuildPathEclipse_selection.PNG](ViewBuildPathEclipse_selection.PNG)
 
 
 
