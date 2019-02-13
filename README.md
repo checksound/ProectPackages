@@ -109,17 +109,23 @@ E' importante comunque capire tramite gli esempi di prima
 cosa avviene.
 
 #### AGGIUNGO UNA LIBRERIA AL CLASSPATH
-Eclipse la chiama il *buildpath*.
+Eclipse lo chiama il *build path*.
 
+Selezionando la libreria con il tasto destro, *Build Path* > *Add to Build Path* per aggiungere al libreria al build path.
 ![EsempioSettaggioBuildPathEclipse](./EsempioSettaggioBuildPathEclipse.PNG)
 
+Si vede che ora la libreria compare tra le *Referenced Libraries*:
 ![EsempioSettaggioBuildPathEclipse_eseguito](./EsempioSettaggioBuildPathEclipse_eseguito.PNG)
 
-Per vedere in *buildpath* del progetto:
+Per vedere in *build path* del progetto:
+Tasto destro sul progetto, *Build Path* > *Configure Build Path ..* 
+![ViewBuildPathEclipse_selection.PNG](ViewBuildPathEclipse_selection.PNG)
+
+e si apre la vista con le librerie incluse nel progetto:
 
 ![ViewBuildPathEclipse.PNG](ViewBuildPathEclipse.PNG)
 
-![ViewBuildPathEclipse_selection.PNG](ViewBuildPathEclipse_selection.PNG)
+
 
 
 
