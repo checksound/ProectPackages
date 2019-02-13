@@ -1,2 +1,2 @@
 
-java -classpath target prova.FileExcelParser
+java -classpath target;lib/* prova.FileExcelParser

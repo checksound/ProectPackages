@@ -1,2 +1,1 @@
-# -sourcepath .\src
-javac -d target  .\src\prova\FileExcelParser.java
+javac -d target -classpath lib/*  .\src\prova\FileExcelParser.java
