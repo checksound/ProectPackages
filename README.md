@@ -6,6 +6,8 @@ L'esempio prova.ProgramFileReader legge un file di testo utilizzando
 le librerie della standard library di Java. Quindi si fa l'import di `java.io.*` perchè devo utilizzare le classi `java.io.BufferedReader`, 
 `java.io.FileReader`, `java.io.IOException`.
 
+Vedi codice: [./src/prova/ProgramReader.java](./src/prova/ProgramReader.java)
+
 ## ESEMPIO UTILIZZO LIBRERIA ESTERNA
 
 Considero il problema di parsare un file in formato Excel. 
